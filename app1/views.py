@@ -6,3 +6,6 @@ def index(r):
         "<h1 align='center'>Welcome to Home Page</h1></br>"
         "<p>This site is only testing purpos</P></br>"
         )
+
+def greet_url(r):
+    return HttpResponse('<h1>complete integration done...</h1>')

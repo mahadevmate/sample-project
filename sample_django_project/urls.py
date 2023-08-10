@@ -19,5 +19,6 @@ from django.urls import path
 from app1 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index)
+    path('', views.index),
+    path('auto', views.greet_url)
 ]
